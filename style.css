@@ -1,0 +1,124 @@
+/* Primary and Secondary Colors */
+:root {
+    --primary-color: #3498db; /* Primary color: Blue */
+    --secondary-color: #85c1e9; /* Secondary color: Light blue */
+    --header-color: #ffffff; /* Header text color: White */
+    --header-background-color: #2980b9; /* Header background color: Blue */
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    height: 100vh;
+    background-color: var(--secondary-color);
+  }
+  
+  .header {
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: bold;
+    color: var(--header-color); /* Use the custom header text color */
+    margin: 0;
+    padding: 20px; /* Add padding to the header */
+    background-color: var(--header-background-color); /* Set header background color */
+    width: 100%; /* Make header span the entire width */
+    text-align: center; /* Center align header text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
+  
+  .input-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+  }
+
+.input-form input button {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+  
+  #weather-input {
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
+  
+  #weather-input-button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
+  
+  #weather-input-button:hover {
+    background-color: #2980b9; /* Darker shade of primary color on hover */
+  }
+
+
+
+
+
+
+  
+
+  .weather-output-container {
+    margin-top: 20px; /* Adjust as needed */
+    padding: 20px;
+    background-color: var(--header-background-color); /* Same as header background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    color: var(--header-color); /* Same as header text color */
+    text-align: center; /* Center align text horizontally */
+  }
+  
+  .weather-output-container h1,
+  .weather-output-container h3,
+  .weather-output-container h2,
+  .weather-output-container p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .weather-output-container h1 {
+    font-size: 2rem; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .weather-output-container h3 {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .weather-output-container h2 {
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .weather-output-container p {
+    font-size: 1rem; /* Adjust as needed */
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .weather-output-container p:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
+  }
+  
+  .weather-output-container .weather-condition-icon {
+    /* Add styles for the weather condition icon */
+  }
+  
